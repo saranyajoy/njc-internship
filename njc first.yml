@@ -1,0 +1,21 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - movie: jayam
+    actor: nikhil
+    actress: sadha
+    release date: 2002
+    director: teja
+
+  - movie: sisindri
+    actor: akhil
+    actress: aamani
+    release date: 1995
+    director: siva nageshwara rao
+
+  - movie: happy days
+    actor: varun sandesh
+    actress: thamanna
+    release date: 2007
+    director: sekhar kammula
